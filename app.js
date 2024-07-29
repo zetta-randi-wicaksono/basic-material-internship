@@ -107,7 +107,7 @@ function calcPurchase() {
     const indexBook = availableBooks.findIndex((element) => element.title === book.title);
     availableBooks[indexBook].stock = book.stock;
     console.log('Book ', book.title, ' Remaining Stock: ', availableBooks[indexBook].stock);
-    console.log('--------------------------------------------');
+
     totalPrice += totalBookPrice;
     console.log('--------------------------------------------');
   }
